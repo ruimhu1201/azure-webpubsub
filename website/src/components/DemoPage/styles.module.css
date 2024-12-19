@@ -1,0 +1,11 @@
+/* styles.module.css */
+
+.pivotTab:focus {
+    outline: 2px solid #0078d4; /* Ensure a visible focus ring */
+    outline-offset: 2px; /* Add space between the focus ring and the element */
+}
+
+.scrollContainer:focus-within {
+    outline: 2px solid #0078d4;
+    outline-offset: 2px;
+}

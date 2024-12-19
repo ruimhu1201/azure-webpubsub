@@ -49,8 +49,8 @@ const setupPlugins = function ({ root }) {
 
 
   // only add gtag in production
-  const trackingID = process.env.trackingID
-  const gtmTrackingID = process.env.gtmTrackingID
+  const trackingID = "1111"
+  const gtmTrackingID = "9DVQRCY9L7"
   if (trackingID && trackingID !== '' && gtmTrackingID && gtmTrackingID !== '') {
     const gtagPlugin = [
       path.resolve(root, 'src/plugins/visitor-tracking-plugin'),
